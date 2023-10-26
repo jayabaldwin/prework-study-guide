@@ -13,6 +13,8 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie, light blue background." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
+    
     </header>
     <main>
       <section class="card" id="html-section">
@@ -30,7 +32,7 @@
         <ul>
           <li>CSS defines the colors, aesthetics, visual layout, and organisation of a document written in HTML.</li>
           <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
-          <li>When using an external style sheet, we MUST link the file using: rel="stylesheet" href="./assets/style.css, between a link element in the head of the HTML. </li>
+          <li>External style.css files are linked within the head of the HTML using: rel="stylesheet" href="./assets/style.css, betweem a link tag. </li>
           <li>The selector defines which elements the rule will apply to e.g. p {declaration}, when refering to the properties of the text in a paragraph.</li>
           <li>The declaration contains the property we want to apply and the value of the property e.g. color: blue; </li>
           <li>A period preceding a property designates this as a class selector. Any HTML element assigned to the class will gain these property assignments from the CSS.</li>
@@ -64,20 +66,34 @@
 
         <h3>Clone Repository to Local Computer</h3>
         <br>
-        <ol>Copy SSH value from "Code" </ol>
-        <ol>Open terminal</ol>
-        <ol>cd into the folder you want your repo stored</ol>
-        <ol>git clone [paste copied SSH]</ol>
-        <ol>cd [name of repo]</ol>
-        <ol>git remote -v to check the connection between the local and remote repo</ol>
-        <ol>code . </ol>
-        <ol>File will be opened with VS Code</ol>
+        <ol>
+        <li>Copy SSH value from "Code" </li>
+        <li>Open terminal</li>
+        <li>cd into the folder you want your repo stored</li>
+        <li>git clone [paste copied SSH]</li>
+        <li>cd [name of repo]</li>
+        <li>git remote -v to check the connection between the local and remote repo</li>
+        <li>code . </li>
+        <li>File will be opened with VS Code</li>
+      </ol>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>JavaScript (JS) allows users to interact with websites using effects, interactivity, data communication etc.</li>
+          <li>Connect script.js files with a [script] tag under the footer, within the body element.</li>
+          <li>A variable is a named container that allows us to store data in our code [var].</li>
+          <li>A string is a sequence of text, the value is enclosed in quote marks. To access the string refer to the variable name.</li>
+          <li>.log() will output whatever is inside the parentheses to the console using [console.log()]</li>
+          <li>Control flow is the order in which a computer executes code in a script. </li>
+          <li>Using conditional statements allows us to interrupt control flow.</li>
+          <li>[if] statements: provide one or more conditions for the computer to evaluate. If one condition is truthy, the computer will execute the code that we provide between curly brackets.  </li>
+          <li>An array is a single variable used to hold a group of related data and can store multiple values in a single reference.</li>
+          <li>Indexing is used to work with individual data inside an array, following the variable name, beginning at [0].</li>
+          <li>[for] loops contain 3 important statements. Starting point e.g. var x = 0; then the condition, x < the variable times the length of the array and the final statement x++ to express the pattern (x+1 indicates increasing indicies).</li>
+          <li>for(x = 0; x < variable.length; x++) {// code block}]</li>
+          <li>A function is a set of instructions that tells the computer how to perform a certain task. It must be called by name in order to execute it [function name()].</li>
         </ul>
       </section>
 
@@ -86,5 +102,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
