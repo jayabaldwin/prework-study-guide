@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link rel="stylesheet" href="./assets/style.css">
+
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -25,7 +28,15 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>CSS defines the colors, aesthetics, visual layout, and organisation of a document written in HTML.</li>
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+          <li>When using an external style sheet, we MUST link the file using: rel="stylesheet" href="./assets/style.css, between a link element in the head of the HTML. </li>
+          <li>The selector defines which elements the rule will apply to e.g. p {declaration}, when refering to the properties of the text in a paragraph.</li>
+          <li>The declaration contains the property we want to apply and the value of the property e.g. color: blue; </li>
+          <li>A period preceding a property designates this as a class selector. Any HTML element assigned to the class will gain these property assignments from the CSS.</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside the element.</li>
+          <li>Anything written between /* and */ is a CSS comment and will be ignored by the browser</li>
         </ul>
       </section>
 
@@ -36,13 +47,23 @@
           <li>Doesn't use the same as bash commands, always begins with "git"</li>
           <li>git status: what branch we are on</li>
           <li>git checkout -b feature/[name of branch]: creates a new branch and switches to it</li>
-          <li>git add -A: to stage files after any changes are saved</li>
-          <li>git commit -m "insert commit message": after file is saved</li>
-          <li>git pull origin main: to make sure we have the latest commits and changes</li>
-          <li>git push origin feature/[name of branch]: push your commits back to Git Hub</li>
         </ul>
-        
+
+        <br>
+
+        <h3>Git Flow</h3>
+        <br>
+        <ol>
+        <li>git add -A: to stage files after any changes are saved</li>
+        <li>git commit -m "insert commit message": after file is saved</li>
+        <li>git pull origin main: to make sure we have the latest commits and changes</li>
+        <li>git push origin feature/[name of branch]: push your commits back to Git Hub</li>
+        </ol>
+
+        <br>
+
         <h3>Clone Repository to Local Computer</h3>
+        <br>
         <ol>Copy SSH value from "Code" </ol>
         <ol>Open terminal</ol>
         <ol>cd into the folder you want your repo stored</ol>
@@ -51,8 +72,6 @@
         <ol>git remote -v to check the connection between the local and remote repo</ol>
         <ol>code . </ol>
         <ol>File will be opened with VS Code</ol>
-
-      
       </section>
 
       <section class="card" id="javascript-section">
